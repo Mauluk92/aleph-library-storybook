@@ -1,0 +1,10 @@
+@import "style/colors"
+@import "style/font"
+@import "style/mixin"
+
+p
+  font-family: $courier-prime
+  @include label-font-mixin($shadow-list, 'text-shadow')
+  @include label-font-mixin($color-list-font, 'color')
+  @include label-font-mixin($font-size-list, 'font-size')
+  @include label-font-mixin($font-weight-list, 'font-weight')
