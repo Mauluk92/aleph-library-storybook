@@ -1,4 +1,4 @@
-@mixin label-font-mixin($map, $property)
+@mixin label-mixin($map, $property)
   @each $map-key, $map-value in $map
     &[class*=#{$map-key}]
       #{$property}: $map-value
